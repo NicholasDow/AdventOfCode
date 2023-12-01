@@ -8,6 +8,6 @@ def solution():
     g, e = '',''
     for col in range(cols):
         count = np.bincount(i[:,col])
-        count.argmax())
+        count.argmax()
         e += str(count.argmin())
     print(int(g,2)*int(e,2))
